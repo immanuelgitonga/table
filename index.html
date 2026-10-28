@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <center>
+    <table border="2" cellpadding="10">
+        <caption>
+<div id="captiondiv">
+            
+
+            <img src="first.png" height="40" width="40" id="firstimg">
+            <h2 id="h2_caption">Farm Supplies</h2>
+           <i><h3 id="h3_caption">Quality Supplies for a Productive Farm</h3></i> 
+
+
+        </caption>
+    </div>
+        <thead>
+
+     <tr  id="titlerow" rowspan="2">
+        <th rowspan="6">No.</th>
+        <th >category</th>
+        <th colspan="3">Product Details</th>
+
+
+        
+        <th>Unit Price (KSH)</th>
+        <th>Stock Status</th>
+
+
+     </tr>
+     </thead>
+     <tbody>
+<!-- hello this is a comment -->
+        <div id="seeddiv">
+
+     <tr id="tr1" class="firstbatch">
+        <td rowspan="1">1</td>
+        <td rowspan="3">
+            <img src="seedling.png" height="50" width="50"><br>
+            Seeds</td>
+        <td rowspan="1">Maize Seeds</td>
+        <td> High-yield hybrid maize seeds</td>
+        <td>50kg Bag</td>
+        <td>2,500</td>
+        <td class="in_stock">In stock</td>
+
+     </tr>
+
+         <tr id="tr2" class="firstbatch">
+        <td rowspan="1">2</td>
+        <td rowspan="1">Bean Seeds</td>
+        <td>High quality bean seeds</td>
+        <td>10kg bag</td>
+        <td>1,800</td>
+        <td class="in_stock">In stock</td>
+
+     </tr>
+         <tr id="tr3" class="firstbatch">
+        <td rowspan="1">3</td>
+        
+        
+        <td rowspan="1">Vegetable Seeds</td>
+         <td rowspan="1">Assorted Vegetable Seeds</td>
+          <td rowspan="1">Pack</td>
+           <td rowspan="1">500</td>
+            <td rowspan="1" class="low_stock">Low Stock</td>
+        
+
+     </tr>
+
+
+     </div>
+
+
+
+<div id="fertilizer_div">
+         <tr id="tr4" class="secondbatch">
+        <td rowspan="1">4</td>
+         <td rowspan="3"> <img src="fertilizer.png" height="50" width="50"><br>Fertilizers</td>
+         <td>NPK Fertilizer</td>
+          <td rowspan="1">Balanced Nutrient Formula</td>
+           <td rowspan="1">50 kg Bag</td>
+            <td rowspan="1">3,000</td>
+             <td rowspan="1" class="in_stock">In Stock</td>
+
+
+     </tr>
+         <tr id="tr5" class="secondbatch">
+        <td rowspan="1">5</td>
+        <td rowspan="1">Urea</td>
+        <td rowspan="1">Nitrogen-rich Fertilizer</td>
+        <td rowspan="1">50 kg Bag</td>
+        <td rowspan="1">2,200</td>
+        <td rowspan="1" class="in_stock">In Stock</td>
+
+     </tr>
+         <tr id="tr6" class="secondbatch">
+        <td rowspan="1">6</td>
+         <td rowspan="1">DAP</td>
+        <td rowspan="1">Phosphorus-rich Fertilizer</td>
+        <td rowspan="1">50 kg Bag</td>
+        <td rowspan="1">3,500</td>
+        <td rowspan="1" class="out_stock">Out of Stock</td>
+
+     </tr>
+     </div>
+
+
+
+
+<div id="hoe_div">
+
+         <tr id="tr7" class="thirdbatch">
+        <td rowspan="1">7</td>
+           <td rowspan="3"><img src="tools.png" height="50" width="50"><br>Tools</td>
+         <td>Hoe</td>
+          <td rowspan="1">Traditional farming hoe</td>
+           <td rowspan="1">Piece</td>
+            <td rowspan="1">800</td>
+             <td rowspan="1" class="in_stock">In Stock</td>
+
+     </tr>
+         <tr id="tr8" class="thirdbatch">
+        <td rowspan="1">8</td>
+                <td rowspan="1">Watering Can</td>
+        <td rowspan="1">Plastic watering can (10L)</td>
+        <td rowspan="1">Piece</td>
+        <td rowspan="1">1,200</td>
+        <td rowspan="1" class="in_stock">In Stock</td>
+
+     </tr>
+         <tr id="tr9" class="thirdbatch">
+        <td rowspan="1">9</td>
+                <td rowspan="1">Wheelbarrow</td>
+        <td rowspan="1">Heavy duty wheelbarrow</td>
+        <td rowspan="1">Piece</td>
+        <td rowspan="1">5,500</td>
+        <td rowspan="1" class="low_stock">Low Stock</td>
+
+        </tr>
+
+
+
+</div>
+
+
+
+
+    
+    </tbody>
+
+    <tfoot>
+        <tr class="foot_tr">
+            
+            <th colspan="3"> Total Items</th>
+            <th colspan="1">9</th>
+            <th colspan="3"> Better Supplies, Bigger harvests</th>
+        </tr>
+    </tfoot>
+   
+
+    </table>
+
+    </center>
+</body>
+
+<style>
+    table {
+        width: 800px;
+        height: 300px;
+        border-collapse: collapse;
+    }
+
+    img#firstimg{
+position: relative;
+top: 50px;
+right: 17%;
+    }
+
+    caption {
+        background-color: #1f5e3b;
+        border-radius: 5px 5px 8px 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin-bottom: 3px;
+        height: 120px;
+    }
+
+    table tr th {
+        border: 1px solid white;
+        
+        background-color: #105d3b;
+        color: white;
+        margin-right: 0;
+        margin: 0;
+        border-radius: 8px;
+        
+    }
+
+      table tr {
+        border: 1 0 1 1 solid;
+        margin: 0;
+        
+    }
+
+       table {
+        border: 1px solid white;
+        margin: 0;
+    }
+
+    body {
+        background-color: white;
+        font-family: Tahoma, verdana, courier, sans-serif;
+        margin: 2px;
+
+    
+
+div#captiondiv {
+    position: relative;
+    top: -40%;
+    right: 0%;
+}
+
+div#seeddiv table tr td {
+    background-color: blue;
+}
+
+    table tr td {
+        border: 1px solid white;
+        
+        background-color: #105d3b;
+        color: white;
+        margin-right: 0;
+        text-align: center;
+        
+    }
+
+    table tr.firstbatch td {
+        border: 1px solid white;
+        
+        background-color: #e2f0cb;
+        color: black;
+        margin-right: 0;
+        
+    }
+
+        table tr.secondbatch td {
+        border: 1px solid white;
+        
+        background-color: #d6eaf8;
+        color: black;
+        margin-right: 0;
+        
+    }
+
+            table tr.thirdbatch td {
+        border: 1px solid white;
+        
+        background-color: #fde5b5;
+        color: black;
+        margin-right: 0;
+        
+    }
+tfoot {
+  background-color: #d0d7de; /* Light cool grey */
+  color: #1f2328;            /* Dark text for contrast */
+  font-weight: bold;         /* Optional: highlight footer data */
+}
+
+table tr.foot_tr th {
+    background-color: #dccff0;
+    color: white;
+    font-weight: bold;
+}
+
+
+table tr td.in_stock {
+    background-color: #2E7D32;
+    color: white;
+}
+
+
+table tr td.out_stock {
+    background-color: red;
+    color: white;
+}
+
+
+table tr td.low_stock {
+    background-color: orange;
+    color: white;
+}
+
+
+</style>
+
+
+
+
+</html>
